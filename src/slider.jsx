@@ -8,7 +8,7 @@ const DivSlider = () => {
   
   const slides = [
     <div key="1" className=" md:min-h-[80vh] h-[50vh] w-full bg-white flex flex-col md:flex-row items-end md:items-center justify-end rounded-lg "style={{ 
-        backgroundImage: "url('./public/form.jpg')",
+        backgroundImage: "url('/form.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}>
@@ -35,7 +35,7 @@ const DivSlider = () => {
       </div>
     </div>,
     <div key="2" className=" md:min-h-[80vh] h-[50vh] w-full bg-white flex flex-col md:flex-row items-end md:items-center justify-end rounded-lg "style={{ 
-        backgroundImage: "url('./public/foodwow.jpg')",
+        backgroundImage: "url('/foodwow.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}>
