@@ -1,4 +1,3 @@
-import Potrait from "./Assets/otherpotrait.jpeg"
 
 export default function Hero(){
     const handleClick = () => {
@@ -11,7 +10,7 @@ export default function Hero(){
         <div className="md:h-140 md:m-20 mt-10 m-5 p-3.5 flex gap-9 flex-col md:flex-row ">
             <div className=" md:w-[65vh] md:h-[65vh] flex justify-center items-center">
                 <div className="bg-gray-400 h-[30vh] w-[30vh] md:h-[50vh] md:w-[50vh] rounded-full mb-7 overflow-hidden border-6 border-[#EDAFB8]">
-                    <img src={Potrait} alt="" className="w-full h-full object-cover"/>
+                    <img src="./public/otherpotrait.jpeg" alt="" className="w-full h-full object-cover"/>
                 </div>
                 </div>
             <div className="font-mono text-[#003844]">
