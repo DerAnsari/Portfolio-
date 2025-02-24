@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+.clip-semi-oval {clip-path: ellipse(100% 50% at 50% 0%);}
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: #E6E1C5 ;
+}
