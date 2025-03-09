@@ -4,12 +4,12 @@ import DivSlider from './slider';
 
 export default function About() {
   return (
-    <div className="mb-350 font-mono md:mb-450">
-        <div id="About" className={`${styles["clip-oval"]} flex  justify-center   h-28 md:h-80 bg-[#006C67]`}>
+    <div className="mb-50 font-mono ">
+        <div id="About" className={`${styles["clip-oval"]} flex  justify-center items-end  h-28 md:h-70 bg-[#006C67]`}>
             <p className="text-[#E6E1C5] p-5 text-2xl md:text-6xl md:p-10">About Me</p>
         </div>
-        <div className="bg-[#006C67] p-10  md:text-4xl text-[#E6E1C5] absolute top-214 md:top-236">
-            <h1 className="m-10 md:text-5xl text-center">
+        <div className="bg-[#006C67] p-10  md:text-4xl text-[#E6E1C5]  ">
+            <h1 className="m-10 md:pb-15 md:text-5xl text-center">
                 "The best solutions come from those who challenge convention."
             </h1>
             <p>
